@@ -37,7 +37,7 @@ def others_markup(videoid, user_id):
                 callback_data=f"pr_go_back_timer {videoid}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="⍟ 𝙲𝙻𝙾𝚂𝙴 ⍟",
+                text="𝙲𝙻𝙾𝚂𝙴",
                 callback_data=f"close",
             ),
         ],
@@ -65,3 +65,4 @@ def download_markup(videoid, user_id):
         ],
     ]
     return buttons
+
